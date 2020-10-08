@@ -10,10 +10,10 @@
 //
 // The goal is to give a concise overview of basic, modern C++ (C++14).
 //
-// The document is hosted on https://github.com/mortennobel/cpp-cheatsheet. Any comments and feedbacks are appreciated.
+// The document is hosted on https://github.com/mortennobel/cpp-cheatsheet. Any comments and any feedbacks are appreciated.
 
 // ## Preprocessor
-
+//
 // Comment to end of line
 /* Multi-line comment */
 #include  <stdio.h>         // Insert standard header file
@@ -63,7 +63,7 @@ World)";                    // Creates string object with value "Hello\nWorld"
 int* p;                     // p is a pointer to (address of) int
 char* s="hello";            // s points to unnamed array containing "hello"
 void* p=nullptr;            // Address of untyped memory (nullptr is 0)
-int& r=x;                   // r is a reference to (alias of) int x
+int& r=x;                   // r is  reference to (alias of) int x
 enum weekend {SAT,SUN};     // weekend is a type with values SAT and SUN
 enum weekend day;           // day is a variable of type weekend
 enum weekend{SAT=0,SUN=1};  // Explicit representation as int
@@ -155,7 +155,7 @@ int main(int argc, char* argv[]) { statements... }
 //
 // Functions with different parameters may have the same name (overloading). Operators except `::` `.` `.*` `?:` may be overloaded.
 // Precedence order is not affected. New operators may not be created.
-
+//
 // ## Expressions
 
 // Operators are grouped by precedence, highest first. Unary operators and assignment evaluate right to left. All
@@ -529,3 +529,5 @@ future<int> fut =         // result of async function
         async(launch::async, fib, 4); // start async function in other thread
 // do some other work 
 cout << fut.get();        // get result of async function. Wait if needed.
+
+//great cheatsheet
