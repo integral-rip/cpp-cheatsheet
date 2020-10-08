@@ -12,7 +12,7 @@ The document is hosted on https://github.com/integral-rip/cpp-cheatsheet. Any co
 ## Preprocessor
 
 ```cpp
-                            // Comment to end of line
+                            // Comment to end of line as follows
                             /* Multi-line comment */
 #include  <stdio.h>         // Insert standard header file
 #include "myfile.h"         // Insert file in current directory
