@@ -10,7 +10,7 @@
 //
 // The goal is to give a concise overview of basic, modern C++ (C++14).
 //
-// The document is hosted on https://github.com/mortennobel/cpp-cheatsheet. Any comments and feedback are appreciated.
+// The document is hosted on https://github.com/mortennobel/cpp-cheatsheet. Any comments and feedbacks are appreciated.
 
 // ## Preprocessor
 
@@ -86,7 +86,7 @@ auto& s = singleton::instance();
 // Declares it to a reference of the result
 
 
-// ## STORAGE Classes
+// ## Storage Classes
 
 int x;                      // Auto (memory exists only while in scope)
 static int x;               // Global lifetime even if local scope
@@ -111,6 +111,7 @@ while (x) a;                // Repeat 0 or more times while x is true
 for (x; y; z) a;            // Equivalent to: x; while(y) {a; z;}
 
 for (x : y) a;              // Range-based for loop e.g.
+
 // for (auto& x in someList) x.y();
 
 do a; while (x);            // Equivalent to: a; while(x) a;
